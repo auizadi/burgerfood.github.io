@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s1 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+
+.line {
+  width: 20%;
+  height: 4px;
+  background-color: green;
+}
+
+.s2 {
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+}
+
+.s3 {
+  background-color: black;
+  width: 100%;
+  height: 70vh;
+}
+.s4 {
+  background-color: black;
+  width: 100%;
+  height: 30vh;
+}
+.s5 {
+  background-color: black;
+  width: 100%;
+  height: 140vh;
+}
+.s6 {
+  background-image: url("img/raphael-maksian-IsmVrCPM5ms-unsplash.jpg"); /* Replace with your image path */
+  background-size: cover; /* Ensures the image covers the whole container */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  width: 100%;
+  height: 100vh; /* Adjust the height as needed */
+  position: relative; /* Ensures it respects its container's positioning */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .s6::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 1;
+  }
+  .content {
+    .content {
+      position: relative;
+      z-index: 2;
+    }
+  }
+
+  .button {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+  }
+  p {
+    margin: 0 20% 0 20%;
+  }
+}
+
+.s7 {
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+}
+.s8 {
+  width: 100%;
+  height: 60vh;
+}
+.s9 {
+  width: 100%;
+  height: 80vh;
+
+  
+}
